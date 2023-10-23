@@ -1,0 +1,129 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+#container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    position: sticky;
+    z-index: 1000;
+    border-bottom: solid 1px #C6C6C6;
+    background-color: white;
+}
+
+.logo {
+    width: 127px;
+    height: 33px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* post layout */
+
+p {
+    margin: 0;
+}
+
+section {
+    border-bottom: 24px solid #ededed
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+.postHeader {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.postAvatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.name {
+    color: #000;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.location {
+    color: #000;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.postImg {
+    width: 100%;
+}
+
+.postFooter {
+    padding: 21px 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.iconContainer {
+    display: flex;
+    gap: 20px;
+
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+}
+
+#numLikes {
+    color: #000;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.likes {
+    color: #000;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.comment {
+    color: #000;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.username {
+    color: #000;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
